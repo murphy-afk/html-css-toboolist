@@ -7,12 +7,9 @@
 }
 
 body {
-  background-color: rgb(203, 192, 192);
+  background-color: rgb(245, 241, 241);
 }
 
-.container {
-  width: 80%;
-}
 
 /* header */
 
@@ -35,4 +32,46 @@ header {
   vertical-align: middle;
   font-weight: 750;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* card  */
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border-radius: 5%;
+}
+
+.task-bar {
+  padding: 20px 35px;
+  border-bottom: 1px solid rgb(245, 241, 241);
+}
+
+.add-task {
+  background-color: rgb(44, 177, 255);
+  color: rgb(255, 255, 255);
+  border-color: rgb(44, 177, 255);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 13px;
+  
+}
+
+.add-section {
+  background-color: rgb(255, 255, 255);
+  color: rgb(194, 194, 194);
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-left: 5px;
 }
