@@ -10,6 +10,14 @@ body {
   background-color: rgb(245, 241, 241);
 }
 
+ul {
+  list-style-type: none;
+}
+
+p {
+  display: inline;
+}
+
 
 /* header */
 
@@ -44,7 +52,7 @@ header {
 .card {
   background-color: rgb(255, 255, 255);
   margin-top: 20px;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .task-bar {
@@ -75,3 +83,5 @@ header {
   font-size: 13px;
   margin-left: 5px;
 }
+
+
