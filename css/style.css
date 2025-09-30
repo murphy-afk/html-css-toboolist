@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 55px;
+  padding-top: 10px;
 }
 
 p {
@@ -39,7 +42,6 @@ header {
   display: inline;
   vertical-align: middle;
   font-weight: 750;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* card  */
@@ -53,10 +55,11 @@ header {
   background-color: rgb(255, 255, 255);
   margin-top: 20px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .task-bar {
-  padding: 20px 35px;
+  padding: 20px 55px;
   border-bottom: 1px solid rgb(245, 241, 241);
 }
 
@@ -69,7 +72,7 @@ header {
   cursor: pointer;
   border: none;
   font-size: 13px;
-  
+
 }
 
 .add-section {
@@ -84,4 +87,70 @@ header {
   margin-left: 5px;
 }
 
+.task-status {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+}
 
+.task-done {
+  border-color: rgb(54, 254, 54);
+  color: rgb(54, 254, 54);
+}
+
+.task-not-done {
+  border-color: rgb(255, 43, 43);
+  color: rgb(255, 43, 43);
+}
+
+.task {
+  padding: 10px;
+}
+
+.section-title {
+  padding-top: 25px;
+}
+
+.task-description {
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.task-type {
+  font-size: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.type-blue {
+  background-color: rgb(32, 136, 255);
+}
+
+.type-purple {
+  background-color: rgb(179, 98, 255);
+}
+
+.type-acqua {
+  background-color: rgb(39, 198, 169);
+}
+
+.type-orange {
+  background-color: rgb(250, 145, 47);
+}
+
+.type-pink {
+  background-color: rgb(239, 76, 207);
+}
+
+.type-green {
+  background-color: rgb(144, 240, 60);
+}
